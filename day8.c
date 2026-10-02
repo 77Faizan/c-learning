@@ -1,10 +1,16 @@
 #include <stdio.h>
 
 int main(){
-    int a=30;
-    int b=a;
-    int c= a+20;
-    printf("the sum of the no.s %d", a+b+c);
-    return 0;
+   
+int a,b,c;
 
+a=b=80;
+c=10;
+
+
+int sum= a+b+c;
+
+
+printf("the sum of the no,s %d",sum);
+return 0;
 }
