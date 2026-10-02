@@ -1,13 +1,15 @@
 #include <stdio.h>
 
 int main(){
-   
+  int a=50 ,b=3;
+printf("reminder %d", a%b);
+return 0;
 
-    int oldAge=22;
-    int commingAge;
-    scanf("%d",&commingAge);
-    int newAge=22+commingAge;
-    printf(" agg :%d",newAge);
-    return 0;
+
+
+
+
+
+
+
 }
-
