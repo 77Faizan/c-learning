@@ -2,15 +2,12 @@
 
 int main(){
    
-int a,b,c;
 
-a=b=80;
-c=10;
-
-
-int sum= a+b+c;
-
-
-printf("the sum of the no,s %d",sum);
-return 0;
+    int oldAge=22;
+    int commingAge;
+    scanf("%d",&commingAge);
+    int newAge=22+commingAge;
+    printf(" agg :%d",newAge);
+    return 0;
 }
+
