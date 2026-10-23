@@ -18,7 +18,5 @@ printf("the value is true");
 else
 printf("the value is false");
 
-
-
 }
 

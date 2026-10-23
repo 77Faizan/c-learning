@@ -1,15 +1,35 @@
 #include <stdio.h>
-int main () {
-    int a,b;
-
-    printf("enter a");
-    scanf("%d", &a);
+ int main(){
+   int a;
     
-    printf("enter b");
-    scanf("%d", &b);
+    printf("Enter a");
+    scanf("%d",&a);
 
-    int sum = a-b;
-    printf("the sum of the no.s : %d", sum);
+   int multiplication = a*a;
+
+   
+    printf("%d", multiplication);
+
+
+
+  
+    
     return 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
